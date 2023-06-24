@@ -28,7 +28,7 @@ class WhatsappModels {
                 header: {
                     type: "image",
                     image: {
-                        link: "https://github.com/santiagoarias2000/whatappsHitdata/blob/main/src/assets/hola.jpeg"
+                        link: "https://github.com/santiagoarias2000/whatappsHitdata/blob/main/src/assets/hola.jpeg?raw=true"
                     },
                 },
                 body: {

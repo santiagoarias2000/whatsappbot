@@ -26,14 +26,14 @@ class WhatsappModels {
             "interactive": {
                 type: "button",
                 header: {
-                    type: "image",
-                    image: {
-                        link: "https://github.com/santiagoarias2000/whatappsHitdata/blob/main/src/assets/hola.jpeg?raw=true"
+                    type: "video",
+                    video: {
+                        link: "https://hitwha.s3.amazonaws.com/ANIMACION+LOGO(1).mp4"
                     },
                 },
                 body: {
                     //Hola bienvenido a Hit Data, soy bluebot tu asistente virtual, te inivito a conocer nuestros servicios, o si te quieres contactar con nuestro equipo puedes escrbir en cualquier momento TEAM (sirve para conocer nuestro horario de atencion)
-                    text: "Hola bienvenido a Hit Data, soy BotBlue tu asistente virtual, te inivito a conocer nuestros servicios, o si te quieres contactar con nuestro equipo puedes escrbir en cualquier momento ''TEAM''. 😎" + number,
+                    text: "Hola bienvenido a Hit Data, soy BotBlue tu asistente virtual, te inivito a conocer nuestros servicios, o si te quieres contactar con nuestro equipo puedes escrbir en cualquier momento *TEAM*. 😎" + number,
                 },
                 action: {
                     buttons: [
@@ -73,7 +73,7 @@ class WhatsappModels {
             image: {
                 link: "https://raw.githubusercontent.com/santiagoarias2000/whatappsHitdata/main/src/assets/emociones_hitdata(1).jpg",
                 //Hasta luego numerodetelefono te hablo tu asistente virtual BlueBot
-                caption: 'Hasta Luego ' + `${number}` + ' desde HitData ✌️✌️ ',
+                caption: 'Hasta Luego ' + `${number}` + ' desde HitData ✌️✌️, hablaste con tu asistente virtual BlueBot',
             },
         });
         return data;
